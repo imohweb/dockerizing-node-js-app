@@ -21,6 +21,14 @@ const Person = sequelize.define('Person', {
         type: Sequelize.STRING,
         allowNull: true
     },
+    DOB: {
+        type: Sequelize.STRING,
+        allowNull: true
+    },
+    city: {
+        type: Sequelize.STRING,
+        allowNull: true
+    },
 });
 module.exports = {
     sequelize: sequelize,
